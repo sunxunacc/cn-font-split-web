@@ -1,3 +1,6 @@
+npm安装依赖包 npm install
+启动项目 npm run dev
+
 浏览器设置下载文件位置，关闭询问
 ![alt text](image-1.png)
 
