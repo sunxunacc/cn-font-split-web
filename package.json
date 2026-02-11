@@ -1,0 +1,19 @@
+{
+  "name": "cn-font-split-web",
+  "author": "sunxun",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^7.3.1"
+  },
+  "dependencies": {
+    "cn-font-split": "^7.4.1",
+    "google-protobuf": "^4.0.1"
+  }
+}
