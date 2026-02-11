@@ -1,4 +1,7 @@
+方便快捷地进行字体文件分割
+
 npm安装依赖包 npm install
+
 启动项目 npm run dev
 
 浏览器设置下载文件位置，关闭询问
@@ -55,3 +58,5 @@ outDir: './dist/font', // 输出目录
     silent: true,
 
 });
+
+满意的话请给个 star 吧
