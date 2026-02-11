@@ -1,14 +1,16 @@
 浏览器设置下载文件位置，关闭询问
 ![alt text](image-1.png)
+
 分割字体文件，result.css中定义了所有字体的关联，引入到项目中
 ![alt text](image-2.png)
+
 启动项目开始分割，需要允许浏览器连续下载多个文件，如果提示是否等待则点击等待
 ![alt text](image-4.png)
+
 参数配置：
 https://github.com/KonghaYao/cn-font-split/tree/release/packages/ffi-js
 
-import { fontSplit } from 'cn-font-split';
-await fontSplit({
+fontSplit({
 input: inputBuffer, // 输入的字体缓冲区
 outDir: './dist/font', // 输出目录
 
